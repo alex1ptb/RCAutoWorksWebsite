@@ -1,0 +1,13 @@
+/* center contact form information */
+.contact-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* align all input boxes to be equal */
+.contact-form input {
+    width: 100%;
+    margin: 0.5rem 0;
+}

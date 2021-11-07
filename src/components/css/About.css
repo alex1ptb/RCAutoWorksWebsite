@@ -1,0 +1,104 @@
+.about-container {
+    background: linear-gradient( 90deg, rgb(22, 19, 43) 0%, rgb(26, 23, 23) 100%);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    color: lightgray;
+}
+
+.section-one, .section-two, .section-three {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.about-container div{
+    width: 100%;
+    height: auto;
+}
+
+.about-container h1{
+    font-size: 2.5em;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+container img {
+    opacity: 0.8;
+    filter: brightness(80%);
+    height: 80vh;
+    width: 50%;
+    margin: 0;
+    border-radius: 10%;
+    margin: 10px;
+    background-color: black;
+}
+
+.section-four{
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: lighter;
+
+}
+
+/* .section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    border-radius: 10%;
+    margin: 10px;
+    color:red;
+} */
+
+/* .section-four img{
+    width: auto;
+    height: 40vh;
+    border-radius: 10%;
+    margin: 10px;
+    background-color: black;
+} */
+
+h2{
+    font-weight: bolder;
+    margin-top: 20px;
+    display: flex;
+    top: 25;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 98vw;
+    font-size: 1.7em;
+}
+
+.section-two {
+ flex-direction: row-reverse
+}
+
+
+
+@media (max-width: 1025px) {
+    .section-one, .section-two, .section-three {
+        flex-direction: column;
+    }
+    container img {
+        height: auto;
+        width: 100%;
+    }
+    p {
+        max-width: 100vw;
+        font-size: 2.5em;
+    }
+}
